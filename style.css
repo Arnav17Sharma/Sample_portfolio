@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+.main {
+    width: 100%;
+    background-image: url(./bgg.svg);
+    /* background-color: blue; */
+    align-content: center;
+}
+
+.desk-1{
+    width: fit-content;
+    padding: 10px;
+    margin-left: 45vh;
+    align-content: center;
+    background-color: white;
+    /* -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s; */
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#left{
+    animation: left 2s ease infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes left{
+    from{
+        transform: rotateY(-15deg); 
+    }
+    to{
+        transform: rotateY(15deg);
+    }
+}
+
+#right{
+    animation: right 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes right{
+    from{
+        transform: rotateY(15deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#arnav{
+    animation: arnav 3s alternate infinite;
+}
+
+@keyframes arnav {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+#sharma{
+    animation: sharma 3s alternate infinite;
+}
+
+@keyframes sharma {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(20px);
+    }
+}
+
+#seconds{
+    animation: seconds 60s ease infinite;
+    transform-origin: inherit;
+    transform-box: fill-box;
+}
+
+
+
+
+@keyframes seconds {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(36deg);
+    }
+    20% {
+        transform: rotate(72deg);
+    }
+    30% {
+        transform: rotate(108deg);
+    }
+    40% {
+        transform: rotate(144deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    60% {
+        transform: rotate(216deg);
+    }
+    70% {
+        transform: rotate(252deg);
+    }
+    80% {
+        transform: rotate(288deg);
+    }
+    90% {
+        transform: rotate(324deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+#lines1{
+    animation: lines1 3s alternate infinite;
+}
+
+@keyframes lines1 {
+    from {
+        transform: translateX(15px);
+    }
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+#lines2{
+    animation: lines2 3s alternate infinite;
+}
+
+@keyframes lines2 {
+    from {
+        transform: translateX(-4px);
+    }
+    to {
+        transform: translateX(12px);
+    }
+}
+
+#box{
+    animation: box 10s alternate infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes box {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.skills{
+    background-image: url(./bgg2.svg);
+    width: 100%;
+    height: auto;
+}
+
+
+#skillstxt{
+    animation: skillstxt 2s ease infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#pprojects{
+    animation: skillstxt 2s ease infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes skillstxt{
+    from{
+        transform: rotateY(-15deg);
+        transform: translateX(24px);
+    }
+    to{
+        transform: rotateY(15deg);
+        transform: translateX(64px);
+    }
+}
+
+#skill3{
+    animation: skill3 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes skill3{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#js{
+    animation: js 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes js{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#css{
+    animation: css 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes css{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#html{
+    animation: html 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes html{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+
+.proj{
+    background-image: url(./bgg.svg);
+    width: 100%;
+    height: auto;
+}
+
+#figma{
+    animation: figma 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes figma{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#spotify{
+    animation: spotify 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes spotify{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#plantrip{
+    animation: plantrip 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes plantrip{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+#chess{
+    animation: chess 2s alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes chess{
+    from{
+        transform: rotateY(25deg);
+    }
+    to{
+        transform: rotateY(-15deg);
+    }
+}
+
+.contactme{
+    background-image: url(./bgg2.svg);
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-icons{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    scale: 0.4;
+}
